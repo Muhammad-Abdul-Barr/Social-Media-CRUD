@@ -1,0 +1,36 @@
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\bin\Debug\CRUD Operations.exe.config
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\bin\Debug\CRUD Operations.exe
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\bin\Debug\CRUD Operations.pdb
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\bin\Debug\Guna.UI2.dll
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD Operations.csproj.AssemblyReference.cache
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.NewUser.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Properties.Resources.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Form1.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD Operations.csproj.GenerateResource.cache
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD Operations.csproj.CoreCompileInputs.cache
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD Operations.csproj.CopyComplete
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD Operations.exe
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD Operations.pdb
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.FB_Dashboard.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.NewFBUserDetails.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.CreatePage.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.CreatePost.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.EditPage.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.PagesPanel.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.AccountDetails.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.UpdateCredentials.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.ViewPosts.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.PopupForm.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.EditPost.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Interact.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.ViewInteractions.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_AccountDetail.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_CreatePost.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_Interact.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_UpdateCredentials.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_Dashboard.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_Posts.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Subreddits.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.CreateSubreddit.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_EditPost.resources
+D:\Study\Coding\C#\Projects\DB\dbfinalpid-3\CRUD Operations\obj\Debug\CRUD_Operations.Forms.Panel.Reddit_ViewInteractions.resources

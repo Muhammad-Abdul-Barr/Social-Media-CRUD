@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A088A2C-0EEA-41AE-809B-938CCEB06D39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CRUD_Operations</RootNamespace>
+    <AssemblyName>CRUD Operations</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Configuration.cs" />
+    <Compile Include="BL\LoggedInUser.cs" />
+    <Compile Include="Forms\FB_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FB_Dashboard.Designer.cs">
+      <DependentUpon>FB_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewFBUserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewFBUserDetails.Designer.cs">
+      <DependentUpon>NewFBUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewUser.Designer.cs">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\AccountDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\AccountDetails.Designer.cs">
+      <DependentUpon>AccountDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\CreatePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\CreatePage.Designer.cs">
+      <DependentUpon>CreatePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\CreatePost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\CreatePost.Designer.cs">
+      <DependentUpon>CreatePost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\CreateSubreddit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\CreateSubreddit.Designer.cs">
+      <DependentUpon>CreateSubreddit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\EditPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\EditPage.Designer.cs">
+      <DependentUpon>EditPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\EditPost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\EditPost.Designer.cs">
+      <DependentUpon>EditPost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Interact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Interact.Designer.cs">
+      <DependentUpon>Interact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\PagesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\PagesPanel.Designer.cs">
+      <DependentUpon>PagesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_AccountDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_AccountDetail.Designer.cs">
+      <DependentUpon>Reddit_AccountDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_CreatePost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_CreatePost.Designer.cs">
+      <DependentUpon>Reddit_CreatePost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_EditPost.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_EditPost.Designer.cs">
+      <DependentUpon>Reddit_EditPost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_Interact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_Interact.Designer.cs">
+      <DependentUpon>Reddit_Interact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_UpdateCredentials.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_UpdateCredentials.Designer.cs">
+      <DependentUpon>Reddit_UpdateCredentials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_ViewInteractions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_ViewInteractions.Designer.cs">
+      <DependentUpon>Reddit_ViewInteractions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reddit_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Reddit_Dashboard.Designer.cs">
+      <DependentUpon>Reddit_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_Posts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Reddit_Posts.Designer.cs">
+      <DependentUpon>Reddit_Posts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\Subreddits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\Subreddits.Designer.cs">
+      <DependentUpon>Subreddits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\UpdateCredentials.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\UpdateCredentials.Designer.cs">
+      <DependentUpon>UpdateCredentials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\ViewInteractions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\ViewInteractions.Designer.cs">
+      <DependentUpon>ViewInteractions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Panel\ViewPosts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel\ViewPosts.Designer.cs">
+      <DependentUpon>ViewPosts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PopupForm.Designer.cs">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FB_Dashboard.resx">
+      <DependentUpon>FB_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewFBUserDetails.resx">
+      <DependentUpon>NewFBUserDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewUser.resx">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\AccountDetails.resx">
+      <DependentUpon>AccountDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\CreatePage.resx">
+      <DependentUpon>CreatePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\CreatePost.resx">
+      <DependentUpon>CreatePost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\CreateSubreddit.resx">
+      <DependentUpon>CreateSubreddit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\EditPage.resx">
+      <DependentUpon>EditPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\EditPost.resx">
+      <DependentUpon>EditPost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Interact.resx">
+      <DependentUpon>Interact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\PagesPanel.resx">
+      <DependentUpon>PagesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_AccountDetail.resx">
+      <DependentUpon>Reddit_AccountDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_CreatePost.resx">
+      <DependentUpon>Reddit_CreatePost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_EditPost.resx">
+      <DependentUpon>Reddit_EditPost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_Interact.resx">
+      <DependentUpon>Reddit_Interact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_UpdateCredentials.resx">
+      <DependentUpon>Reddit_UpdateCredentials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_ViewInteractions.resx">
+      <DependentUpon>Reddit_ViewInteractions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reddit_Dashboard.resx">
+      <DependentUpon>Reddit_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Reddit_Posts.resx">
+      <DependentUpon>Reddit_Posts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\Subreddits.resx">
+      <DependentUpon>Subreddits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\UpdateCredentials.resx">
+      <DependentUpon>UpdateCredentials.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\ViewInteractions.resx">
+      <DependentUpon>ViewInteractions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Panel\ViewPosts.resx">
+      <DependentUpon>ViewPosts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PopupForm.resx">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
